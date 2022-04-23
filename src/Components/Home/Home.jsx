@@ -3,6 +3,7 @@ import './Home.css'
 import { motion } from "framer-motion"
 import {BsFillCloudArrowDownFill} from 'react-icons/bs'
 import Next from '../ButtonNext/Next'
+import { Link } from "react-scroll";
 const Home = () => {
     const variants = {
         visible: { opacity: 1 },
@@ -29,7 +30,9 @@ const Home = () => {
                         <p>Descargar CV</p>
                 </motion.button>
             </div>
-            <Next/>
+            <Link>
+                <Next style={"mr-14 h-8 mt-60 cursor-pointer"}/>
+            </Link>
         </div>
     )
 }
