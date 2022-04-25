@@ -1,0 +1,31 @@
+{
+    "works":  [
+        {
+            "title" : "HumbleFood E-Commerce",
+            "image" : "https://img2.freepng.es/20180504/ehw/kisspng-ghostbusters-the-video-game-app-store-iphone-5aec2e3d31ebb5.7683155315254277732045.jpg",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et ipsum felis. Cras posuere mi lorem, quis egestas ipsum commodo eget. Suspendisse tempus erat in mollis viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec malesuada lacus elit, et euismod leo dictum ac. Morbi et magna nec neque mollis blandit. Fusce et egestas lacus, vel ornare nisi. Vivamus dictum dapibus pharetra. Morbi aliquam eros ac est commodo, in rutrum lacus congue.",
+            "tecnologies": ["JavaScript", "TypeScript", "React & Redux", "Tailwind", "MongoDB", "Node.js", "Express.js", "Prisma"],
+            "urlView" : "https://humblefood.vercel.app/",
+            "urlGit" : "https://github.com/DemIGoD45/HumbleFood-BackEnd"
+        },
+        {
+            "title" : "VideoGames App",
+            "image" : "https://img2.freepng.es/20180504/ehw/kisspng-ghostbusters-the-video-game-app-store-iphone-5aec2e3d31ebb5.7683155315254277732045.jpg",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et ipsum felis. Cras posuere mi lorem, quis egestas ipsum commodo eget. Suspendisse tempus erat in mollis viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec malesuada lacus elit, et euismod leo dictum ac. Morbi et magna nec neque mollis blandit. Fusce et egestas lacus, vel ornare nisi. Vivamus dictum dapibus pharetra. Morbi aliquam eros ac est commodo, in rutrum lacus congue.",
+            "tecnologies": ["JavaScript", "React & Redux", "Node.js", "Express.js", "PostgreSQL", "Sequelize"],
+            "urlView" : "https://videogames-app-iota.vercel.app/",
+            "urlGit" : "https://github.com/DemIGoD45/VideoGames-Project"
+        },
+        {
+            "title" : "Portfolio",
+            "image" : "https://img2.freepng.es/20180504/ehw/kisspng-ghostbusters-the-video-game-app-store-iphone-5aec2e3d31ebb5.7683155315254277732045.jpg",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et ipsum felis. Cras posuere mi lorem, quis egestas ipsum commodo eget. Suspendisse tempus erat in mollis viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec malesuada lacus elit, et euismod leo dictum ac. Morbi et magna nec neque mollis blandit. Fusce et egestas lacus, vel ornare nisi. Vivamus dictum dapibus pharetra. Morbi aliquam eros ac est commodo, in rutrum lacus congue.",
+            "tecnologies": ["JavaScript", "React", "Tailwind", "Framer motion"],
+            "urlView" : "https://humblefood.vercel.app/",
+            "urlGit" : "https://github.com/DemIGoD45/HumbleFood-BackEnd"
+
+        }
+
+    ]
+    
+}
