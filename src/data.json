@@ -26,6 +26,75 @@
 
         }
 
+    ],
+    "skills": [
+        {
+            "name":"JavaScript",
+            "src":"./javascript.svg"
+        },
+        {
+            "name":"TypeScript",
+            "src":"./typescript.svg"
+        },
+        {
+            "name":"Java",
+            "src":"./java.svg"
+        },
+        {
+            "name":"C++",
+            "src":"./c++.svg"
+        },
+        {
+            "name":"Phyton",
+            "src":"./python.svg"
+        },
+        {
+            "name":"Haskell",
+            "src":"./haskell.svg"
+        },
+        {
+            "name":"React",
+            "src":"./react.svg"
+        },
+        {
+            "name":"Redux",
+            "src":"./redux.svg"
+        },
+        {
+            "name":"Tailwind",
+            "src":"./tailwind-css.svg"
+        },
+        {
+            "name":"Node.js",
+            "src":"./node.svg"
+        },
+        {
+            "name":"Prisma",
+            "src":"./prisma.svg"
+        },
+        {
+            "name":"Sequelize",
+            "src":"./sequelize.svg"
+        },
+        {
+            "name":"MongoDB",
+            "src":"./mongodb.svg"
+        },
+        {
+            "name":"PostgreSQL",
+            "src":"./postgresql.svg"
+        },
+        {
+            "name":"MySQL",
+            "src":"./mysql.svg"
+        },
+        {
+            "name":"Git",
+            "src":"./git.svg"
+        }
+
     ]
+    
+
     
 }
