@@ -1,9 +1,9 @@
 {
     "works":  [
         {
-            "title" : "HumbleFood E-Commerce",
+            "title" : "HumbleFood",
             "image" : "https://img2.freepng.es/20180504/ehw/kisspng-ghostbusters-the-video-game-app-store-iphone-5aec2e3d31ebb5.7683155315254277732045.jpg",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et ipsum felis. Cras posuere mi lorem, quis egestas ipsum commodo eget. Suspendisse tempus erat in mollis viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec malesuada lacus elit, et euismod leo dictum ac. Morbi et magna nec neque mollis blandit. Fusce et egestas lacus, vel ornare nisi. Vivamus dictum dapibus pharetra. Morbi aliquam eros ac est commodo, in rutrum lacus congue.",
+            "description" : "Desarrollo de un E-Commerce enfocado a los rubros que realizan ventas de alimentos de todo tipo. La idea detrás del proyecto fue realizar una plataforma interactiva que permita facilitar la interacción de venta de alimentos en liquidación entre tiendas y usuarios. Dicho proyecto fue realizado junto a siete desarrolladores mas utilizando metodologias agiles (SCRUM).",
             "tecnologies": ["JavaScript", "TypeScript", "React","Redux", "Tailwind", "MongoDB", "Node.js", "Express.js", "Prisma"],
             "urlView" : "https://humblefood.vercel.app/",
             "urlGit" : "https://github.com/DemIGoD45/HumbleFood-BackEnd"
@@ -11,7 +11,7 @@
         {
             "title" : "VideoGames App",
             "image" : "https://img2.freepng.es/20180504/ehw/kisspng-ghostbusters-the-video-game-app-store-iphone-5aec2e3d31ebb5.7683155315254277732045.jpg",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et ipsum felis. Cras posuere mi lorem, quis egestas ipsum commodo eget. Suspendisse tempus erat in mollis viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec malesuada lacus elit, et euismod leo dictum ac. Morbi et magna nec neque mollis blandit. Fusce et egestas lacus, vel ornare nisi. Vivamus dictum dapibus pharetra. Morbi aliquam eros ac est commodo, in rutrum lacus congue.",
+            "description" : "Proyecto realizado con fecha limite de entrega y defensa del mismo para el BootCamp soyHenry. En el mismo se pueden realizar diversas acciones como: buscar juegos, filtrar por generos, realizar ordenamientos, crear y almacenar nuevos juegos.",
             "tecnologies": ["JavaScript", "React","Redux", "Node.js", "Express.js", "PostgreSQL", "Sequelize"],
             "urlView" : "https://videogames-app-iota.vercel.app/",
             "urlGit" : "https://github.com/DemIGoD45/VideoGames-Project"
@@ -19,10 +19,10 @@
         {
             "title" : "Portfolio",
             "image" : "https://img2.freepng.es/20180504/ehw/kisspng-ghostbusters-the-video-game-app-store-iphone-5aec2e3d31ebb5.7683155315254277732045.jpg",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et ipsum felis. Cras posuere mi lorem, quis egestas ipsum commodo eget. Suspendisse tempus erat in mollis viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec malesuada lacus elit, et euismod leo dictum ac. Morbi et magna nec neque mollis blandit. Fusce et egestas lacus, vel ornare nisi. Vivamus dictum dapibus pharetra. Morbi aliquam eros ac est commodo, in rutrum lacus congue.",
+            "description" : "Portafolio personal en donde publico mis ultimos trabajos realizados.",
             "tecnologies": ["JavaScript", "React", "Tailwind", "Framer motion"],
-            "urlView" : "https://humblefood.vercel.app/",
-            "urlGit" : "https://github.com/DemIGoD45/HumbleFood-BackEnd"
+            "urlView" : "",
+            "urlGit" : "https://github.com/DemIGoD45/MyPortfolio"
 
         }
 

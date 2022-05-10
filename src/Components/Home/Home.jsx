@@ -21,7 +21,7 @@ const Home = () => {
       }
     return (
         <div id='home' className='flex flex-col items-center md:items-start md:flex-row mt-16'>
-            <motion.img src={img} initial={{x:0}} animate={{x:130}} transition={{duration:1}} alt="me" className='mr-44 imgTriangular md:h-1/2' />
+            <motion.img src={img} initial={{x:0}} animate={{x:130}} transition={{duration:1}} alt="me" className='mr-44 imgCircular border-transparent md:h-1/2' />
             <motion.div initial={'hidden'} animate={'visible'} variants={variants} className="text-center md:text-left  md:my-36">
                 <p className='text-2xl mb-2 md:text-5xl '>Hola, mi nombre es </p>
                 <h1 className='text-4xl md:text-7xl font-extrabold '>Demian de la Vega</h1>
