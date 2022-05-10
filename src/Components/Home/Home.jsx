@@ -26,7 +26,7 @@ const Home = () => {
                 <p className='text-2xl mb-2 md:text-5xl '>Hola, mi nombre es </p>
                 <h1 className='text-4xl md:text-7xl font-extrabold '>Demian de la Vega</h1>
                 <p className=' font-semibold text-orange-600 mt-2'>¡Y construyo sitios web increíbles!</p>
-                <p className='px-14 w-4/5 text-center pt-4 ml-16 md:text-left md:p-0 md:pt-2 md:ml-0'>
+                <p className='px-20 sm:px-14 w-4/5 text-center pt-4 ml-16 md:text-left md:p-0 md:pt-2 md:ml-0'>
                     Soy un desarrollador web FullStack. 
                     Centrado en la construcción de productos que mejorarán la vida de las personas. 
                     Me encanta aprender cosas nuevas y siempre estoy abierto en el aprendizaje de nuevas tecnologías.
