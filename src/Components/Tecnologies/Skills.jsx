@@ -23,9 +23,9 @@ cb();
 
 const Skills = () => {
     return (
-        <>
+        <div id="skills" className="my-16">
             <Titles text={"Tecnologias"}/>
-            <div id="skills" className="my-7 mx-7 pt-7 ">
+            <div className="my-16 mx-7 pt-7 ">
                     <ul className="flex flex-wrap items-center justify-center gap-6">
                         {
                             data.skills.map((el, ind) => {
@@ -52,7 +52,7 @@ const Skills = () => {
                     </ul>
                 
             </div>
-        </>
+        </div>
     )
 }
 

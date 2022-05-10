@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import * as React from "react";
+import { useEffect } from "react";
 import { Link } from "react-scroll";
+import MobileBtn from "./MobileBtn";
 
 const variants = {
   open: {
@@ -38,36 +40,58 @@ const headerItems = [
   },
   {
     name: "Inicio",
-    href: "inicio",
+    href: "home",
   },
 ];
 
 const Nav = () => {
+
+  const [handleShow, setHandleShow] = React.useState(false);
+  const [active, setActive] = React.useState("#");
+
+  useEffect(() => {
+    const listener = () => {
+      if (window.scrollY > 10) {
+        setHandleShow(true);
+      } else setHandleShow(false);
+    };
+    window.addEventListener("scroll", listener);
+
+    return () => {
+      window.removeEventListener("scroll", listener);
+    };
+  }, []);
+
+      //console.log(document.querySelectorAll("a")[0].);
   return (
-    <motion.ul
-      className="flex flex-row-reverse gap-2 py-3 pr-8 list-none bg-bgblue bg-gradient-to-l from-orange-600"
-      variants={variants}
-    >
-      {headerItems.map((item, i) => (
-        <li
-          key={i}
-          className="border-b-2 border-transparent w-32 pl-2 cursor-pointer hover:border-slate-900 hover:bg-gradient-to-t from-slate-500"
-        >
-          <Link
-            activeClass="active"
-            to={item.href}
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            href={item.href}
-          >
-            <span className="text-slate-900 font-semibold">{headerItems.length - i}. </span>
-            {item.name}
-          </Link>
-        </li>
-      ))}
-    </motion.ul>
+    <>
+      <motion.nav
+        className= {`hidden md:flex md:flex-row-reverse fixed w-full gap-4 md:gap-2 py-1 md:py-1 pr-8 list-none bg-gradient-to-l from-orange-600 to-transparent ${handleShow ? "shadow-lg shadow-orange-900 bg-orange-600 z-50" : ""} `}
+        variants={variants}
+      >
+        {headerItems.map((item, i) => (
+            <Link
+              key={i}
+              className= {` w-32 pl-2 py-2 cursor-pointer  hover:text-black hover:font-bold ${active === item.href ? "text-black font-bold": ""}`}
+              activeClass="active"
+              onClick={() => setActive(item.href)}
+              to={item.href}
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              href={item.href}
+              
+            >
+              <span className={ `text-cyan-700 font-bold text-xl`} >{headerItems.length - i}. </span>
+              {item.name}
+            </Link>
+        ))}
+      </motion.nav>
+      
+      <MobileBtn />
+      
+    </>
   );
 };
 

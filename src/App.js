@@ -1,17 +1,17 @@
 
 import './App.css';
-import Home from './Components/Home/Home';
-import Nav from './Components/Nav/Nav'
+import Contact from './Components/Contact/Contact';
+import Header from './Components/Header/Header';
 import Skills from './Components/Tecnologies/Skills';
 import Work from './Components/Work/Work';
 
 function App() {
   return (
     <div className='flex flex-col' pages={4}>
-      <Nav/>
-      <Home/>
+      <Header/>
       <Work/>
       <Skills/>
+      <Contact/>
     </div>
   );
 }
