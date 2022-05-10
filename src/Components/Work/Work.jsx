@@ -23,13 +23,13 @@ const Work = () =>{
                             image={imgs[i]}
                             urlView={el.urlView}
                             urlGit={el.urlGit}
-                            styleImg={"my-10"}
+                            styleImg={"my-10 "}
                         />
                     ))
                 }
             </div>
         </div>
-    )
+    )  
 }
 
 export default Work;

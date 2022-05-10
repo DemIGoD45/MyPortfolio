@@ -21,7 +21,7 @@
             "image" : "https://img2.freepng.es/20180504/ehw/kisspng-ghostbusters-the-video-game-app-store-iphone-5aec2e3d31ebb5.7683155315254277732045.jpg",
             "description" : "Portafolio personal en donde publico mis ultimos trabajos realizados.",
             "tecnologies": ["JavaScript", "React", "Tailwind", "Framer motion"],
-            "urlView" : "",
+            "urlView" : "https://portfolio-dlv.vercel.app/",
             "urlGit" : "https://github.com/DemIGoD45/MyPortfolio"
 
         }

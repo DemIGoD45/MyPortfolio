@@ -33,13 +33,13 @@ const Card = ({title, description, tecnologies, image, styleImg, urlView, urlGit
             whileInView={{ x: -8}}
             viewport={{ once: true }}
             transition={{duration:0.5}}
-            className="bg-slate-900 shadow-black shadow-lg h-11/12 w-full mx-2 md:w-11/12 md:mx-20 mt-10 px-2 flex flex-col md:flex-row"
+            className="bg-slate-900 shadow-black shadow-lg h-11/12 w-full mx-2 md:w-11/12 md:mx-20 mt-10 px-2 flex flex-col md:flex-row md:justify-items-stretch"
         >
             
-            <div className=" h-4/5 mt-1 ">
+            <div className=" h-4/5 mt-1 md:w-96 ">
                 <img src={image} alt="imgProject" className={styleImg}/>
             </div>
-            <div className="ml-2">
+            <div className="ml-2 md:w-full">
                 <h1 className="text-3xl text-center mt-2">{title}</h1>
                 <motion.ul initial="hidden" whileInView="show" variants={variants} viewport={{ once: true }} className="md:flex md:gap-4 gap-2 border-t-2 border-t-cyan-700 grid grid-cols-3">
                     {
