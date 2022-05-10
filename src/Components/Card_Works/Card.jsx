@@ -29,7 +29,7 @@ const item = {
 const Card = ({title, description, tecnologies, image, styleImg, urlView, urlGit}) => {
     return (
         <motion.div
-            initial={{ x: 100 }}
+            initial={{ x: -100 }}
             whileInView={{ x: -8}}
             viewport={{ once: true }}
             transition={{duration:0.5}}
