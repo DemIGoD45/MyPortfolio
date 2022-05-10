@@ -41,10 +41,6 @@
             "src":"./java.svg"
         },
         {
-            "name":"C++",
-            "src":"./c++.svg"
-        },
-        {
             "name":"Phyton",
             "src":"./python.svg"
         },
