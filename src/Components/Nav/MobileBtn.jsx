@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 export default function MobileBtn() {
   return (
-    <div className="max-w-min text-right z-50 fixed md:hidden flex items-center border border-nav top-6 sm:right-8 right-40">
+    <div className="max-w-min text-right z-50 fixed md:hidden flex items-center border border-nav top-6 sm:right-8 right-10">
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-slate-800   focus:outline-none focus-visible:ring-2 focus-visible:ring-white ">
