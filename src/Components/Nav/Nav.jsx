@@ -66,7 +66,7 @@ const Nav = () => {
   return (
     <>
       <motion.nav
-        className= {`hidden md:flex md:flex-row-reverse fixed w-full gap-4 md:gap-2 py-1 md:py-1 pr-8 list-none bg-gradient-to-l from-orange-600 to-transparent ${handleShow ? "shadow-lg shadow-orange-900 bg-orange-600 z-50" : ""} `}
+        className= {`hidden md:flex md:flex-row-reverse fixed w-full gap-4 md:gap-2 py-1 md:py-1 pr-8 list-none bg-gradient-to-l from-orange-700 to-transparent ${handleShow ? "shadow-lg shadow-orange-900 bg-orange-800 z-50" : ""} `}
         variants={variants}
       >
         {headerItems.map((item, i) => (

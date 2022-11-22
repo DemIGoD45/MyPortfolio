@@ -6,8 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: rgb(68 64 60); */
-  background-color: rgba(3, 50, 68, 0.918);
+  background-color:  rgb(10 10 10 / 92%);
   font-family: 'Open Sans', sans-serif;
   color: white;
 }

@@ -8,10 +8,10 @@ import Work from './Components/Work/Work';
 function App() {
   return (
     <div className='flex flex-col' pages={4}>
-      <Header/>
-      <Work/>
-      <Skills/>
-      <Contact/>
+      <Header />
+      <Work />
+      <Skills />
+      <Contact />
     </div>
   );
 }

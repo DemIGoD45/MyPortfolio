@@ -6,6 +6,8 @@
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@headlessui/react": "^1.6.1",
+    "@material/card": "^14.0.0",
+    "@mui/icons-material": "^5.10.14",
     "@mui/material": "^5.10.5",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",

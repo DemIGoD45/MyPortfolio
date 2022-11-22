@@ -1,10 +1,11 @@
 import Home from "../Home/Home";
-import Nav from "../Nav/Nav";
+import DrawerAppBar from "../Nav/NavBar";
 
 const Header = () => {
     return (
         <header>
-            <Nav/>
+            {/* <Nav/> */}
+            <DrawerAppBar/>
             <Home/>
         </header>       
     )

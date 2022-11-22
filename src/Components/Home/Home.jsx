@@ -26,7 +26,8 @@ const Home = () => {
                 <div>
                     <p className='text-2xl mb-2 md:text-5xl '>Hola, mi nombre es </p>
                     <h1 className='text-4xl md:text-7xl font-extrabold '>Demian de la Vega</h1>
-                    <p className=' font-semibold text-orange-600 mt-2'>¡Y construyo sitios web increíbles!</p>
+                    <hr className=" ml-5 mt-4 border-b-4 rounded-md bg-transparent w-11/12 border-orange-600"></hr>
+                    {/* <p className=' font-semibold text-orange-600 mt-2'>¡Y construyo sitios web increíbles!</p> */}
                     <div>
                         <p className='sm:px-14 w-4/5 text-center px-0 pt-4 ml-10 md:text-left md:p-0 md:pt-2 md:ml-0'>
                             Soy un desarrollador web FullStack. 
@@ -39,7 +40,8 @@ const Home = () => {
                     <motion.button 
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
-                        className='text-xl rounded-full bg-orange-600 p-2 pr-4 mt-10 ml-16 mr-auto md:mx-48 flex items-center gap-2 w-64 justify-center '>
+                        className='text-xl rounded p-2 pr-4 mt-10 ml-20 mr-auto md:mx-48 flex items-center gap-2 w-64 justify-center ' 
+                        style={{backgroundColor: '#01579b'}}>
                             <BsFillCloudArrowDownFill className=' scale-150 w-10  '/>
                             <p>Descargar CV</p>
                     </motion.button>
